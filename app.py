@@ -288,8 +288,8 @@ if "sections" not in st.session_state:
     ]
 
 # ── HEADER ───────────────────────────────────────────────────────────────────
-st.markdown("<h1>📄 Laporan Generator</h1>", unsafe_allow_html=True)
-st.markdown("<p style='color:#A0722A;margin-top:0;font-size:0.95rem;'>Laporan praktikum RPL · by Ay 🌻</p>", unsafe_allow_html=True)
+st.markdown("<h1>Laporan Generator PDF</h1>", unsafe_allow_html=True)
+st.markdown("<p style='color:#A0722A;margin-top:0;font-size:0.95rem;'>Laporan praktikum by Ay 🌻 ION WANNA SPEND HOURS FOR THIS THING, AIGHT?</p>", unsafe_allow_html=True)
 st.divider()
 
 left, right = st.columns([1.15, 0.85], gap="large")
@@ -314,7 +314,7 @@ with left:
             cover_image = st.file_uploader("Logo / gambar cover", type=["png","jpg","jpeg"], key="cover")
 
     st.divider()
-    st.subheader("📝 Isi Laporan")
+    st.subheader("Isi Laporan Nya Kak")
 
     b1, b2 = st.columns(2)
     with b1:
@@ -500,7 +500,7 @@ with left:
 
 # ══════════════════════════════════ RIGHT ═══════════════════════════════════
 with right:
-    st.subheader("👁️ Preview")
+    st.subheader("Noh Preview, Tapi Memang Gambar Ga Ke-load")
 
     st.markdown(f"""
     <div class="preview-page">
