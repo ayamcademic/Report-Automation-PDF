@@ -157,7 +157,7 @@ def header_footer(canvas, doc, title):
     canvas.setFillColor(C_MUTED)
     canvas.setFont("Times-Roman", 8.5)
     canvas.drawString(1.8*cm, 0.9*cm, title[:70])
-    canvas.drawRightString(w - 1.8*cm, 0.9*cm, f"Hal. {doc.page}")
+    canvas.drawRightString(w - 1.8*cm, 0.9*cm, f"Hal. {doc.page - 1}")
     canvas.restoreState()
 
 
